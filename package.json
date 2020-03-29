@@ -1,5 +1,5 @@
 {
-    "name": "07-restserver",
+    "name": "restserver-nodejs",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -10,13 +10,14 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "body-parser": "^1.18.3",
-        "express": "^4.16.4",
+        "bcrypt": "^4.0.1",
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
         "express-fileupload": "^0.4.0",
         "google-auth-library": "^1.6.1",
-        "jsonwebtoken": "^8.4.0",
-        "mongoose": "^5.4.9",
-        "mongoose-unique-validator": "^2.0.2",
-        "underscore": "^1.9.1"
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.9.6",
+        "mongoose-unique-validator": "^2.0.3",
+        "underscore": "^1.9.2"
     }
 }
